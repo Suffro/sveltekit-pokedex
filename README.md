@@ -1,38 +1,14 @@
-# create-svelte
+# SveltKit Pokedex
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+#### This is and excercise project I made to practice [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/).
 
-## Creating a project
+## What is [Svelte](https://svelte.dev/)?
 
-If you're seeing this, you've probably already done this step. Congrats!
+Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
+Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.
 
-```bash
-# create a new project in the current directory
-npm init svelte
+## What is [SvelteKit](https://kit.svelte.dev/)?
 
-# create a new project in my-app
-npm init svelte my-app
-```
+SvelteKit is a Svelte-based framework (kinda like NextJs is for React), for building web applications of all sizes, with a smooth development experience and flexible filesystem-based routing.
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Unlike single-page apps, SvelteKit doesn't compromise on SEO, progressive enhancement or the initial load experience — but unlike traditional server-rendered apps, navigation is instantaneous for that app-like feel.
