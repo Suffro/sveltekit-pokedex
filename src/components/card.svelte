@@ -10,7 +10,7 @@
 	});
 </script>
 
-<li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
+<li class="col-span-1 bg-white rounded-lg shadow border divide-y divide-gray-200">
 	<div class="w-full flex items-center justify-between p-6 space-x-6">
 		<div class="flex-1 truncate">
 			<div class="flex items-center space-x-3">
