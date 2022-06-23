@@ -1,5 +1,4 @@
 
-
 <svelte:head>
     <title>About - SvelteKit Pokedex</title>
 </svelte:head>
