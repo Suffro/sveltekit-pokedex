@@ -1,6 +1,6 @@
 # [SveltKit Pokedex](#)
 
-#### This is an excercise I did to practice [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/). This project (like the name suggests), is a directory to search Pokemons, like a Pokedex.
+#### This is an exercise I did to practice [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/). This project (like the name suggests), is a directory to search Pokemons, like a Pokedex.
 
 To get all the pokemons data I used [PokeAPI](https://pokeapi.co/).
 
