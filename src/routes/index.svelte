@@ -1,12 +1,16 @@
 <script>
-	import { pokemons } from '../stores/pokeApi';
+	import Card from '../components/card.svelte';
+    import { pokemons } from '../stores/pokeApi';
 </script>
 
 <svelte:head>
 	<title>SvelteKit Pokedex</title>
 </svelte:head>
 
-<h1>SvelteKit Pokedex</h1>
-{#each $pokemons as pokemon}
-    <p>{pokemon.name}</p>
-{/each}
+<div class="px-4 sm:px-6">
+    <ul role="list" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 my-8">
+        {#each $pokemons as pokemon}
+            <Card pokemon={pokemon}/>
+        {/each}
+    </ul>
+</div>
