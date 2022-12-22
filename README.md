@@ -1,16 +1,27 @@
 # [SveltKit Pokedex](https://sveltekitpokedex-8934.netlify.app/)
 
-#### This is an exercise I did to practice [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/). This project (like the name suggests), is a directory to search Pokemons, aka a Pokedex.
+#### This is an exercise I did to practice [Svelte](https://svelte.dev/) and [SvelteKit](https://kit.svelte.dev/). This project (like the name suggests), is a directory to search Pokemons, aka a Pokedex. You can demo the project [here](https://sveltekitpokedex-8934.netlify.app/).
 
 To get all the pokemons data I used [PokeAPI](https://pokeapi.co/).
 
-## What is [Svelte](https://svelte.dev/)?
+### If you want to test it locally, you can follow the following instructions:
 
-Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.
-Instead of using techniques like virtual DOM diffing, Svelte writes code that surgically updates the DOM when the state of your app changes.
+#### 1. Clone repository
+```bash
+git clone https://github.com/Suffro/sveltekit-pokedex
+```
 
-## What is [SvelteKit](https://kit.svelte.dev/)?
+#### 2. Install dependencies and run the project
 
-SvelteKit is a Svelte-based framework (kinda like NextJs is for React), for building web applications of all sizes, with a smooth development experience and flexible filesystem-based routing.
-
-Unlike single-page apps, SvelteKit doesn't compromise on SEO, progressive enhancement or the initial load experience — but unlike traditional server-rendered apps, navigation is instantaneous for that app-like feel.
+Once you've cloned the repo of the project you need to install dependencies with `npm install` (or `pnpm install` or `yarn`) and then run the app:
+```bash
+npm install
+```
+Then:
+```bash
+npm run dev
+```
+Or open the app in a new browser tab:
+```bash
+npm run dev -- --open
+```
